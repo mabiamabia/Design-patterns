@@ -7,6 +7,19 @@
 
 # Principio SOLID
 
+- S = Principio da responsabilidade unica:
+
+Uma classe deve ter um objetivo unico, por exemplo: uma classe Produto tem uma regra para calcular o frete do produto, se mudar a regra do calculo voce tem apenas uma responsabilidade, que é calcular o frete do produto :check:
+
+- O = Aberto para extensão/ fechado para modificação (open/closed)
+
+Alterar classes que estão relacionadas com outras, podem quebrar o codigo
+Se precisar adicionar novas funções a classe, criar uma nova classe e importar a classe anterior
+
+- L =
+- I =
+- D =
+
 ## O que são principios?
 
 - Principios são verdades universais (que nunca mudam) por exemplo leis da fisicas já comprovadas
