@@ -5,7 +5,7 @@
 - Padrão GOF (a gangue dos 4) = Livro que documenta 23 padrões de projeto
 - Resolve um problema específico
 
-# Principio SOLID
+# Principio - SOLID
 
 - S = Principio da responsabilidade unica:
 
@@ -24,7 +24,10 @@ Uma classe devirada pode ser substituivel por sua classe base
 
   Classe não devem ser forçadas a depender de metodos que elas não usam
 
-- D =
+- D = Dependency Inversion Principle (principio de inversão de dependencia)
+
+  Modulos de alto nivel nao devem depender de modulos de baixo nivel, ambos devem depender de abstrações,
+  abstrações não devem depender de detalhes
 
 ## O que são principios?
 
