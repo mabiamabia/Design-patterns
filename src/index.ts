@@ -1,12 +1,7 @@
-import Car from "../SOLID/2 - O - open-closed/vehicles/Car";
-import Motorcycle from "../SOLID/2 - O - open-closed/vehicles/Motorcycle";
-import TypeVehicle from "../SOLID/2 - O - open-closed/vehicles/TypeVehicle";
+import DebitCard from "../SOLID/3 - L - Liskov-substitution-principle/DebitCard"
 
-const type = TypeVehicle.CAR;
-let vehicle: Car | Motorcycle;
+//const card = new CreditCard()
+const card = new DebitCard()
 
-if (type === TypeVehicle.CAR) {
-  vehicle = new Car("Preto", 2022, 2.0, 4, 4);
-} else if (type === TypeVehicle.MOTORCYCLE) {
-  vehicle = new Motorcycle("Vermelho", 2022, 2.0);
-}
+card.validate()
+card.collectPayment()

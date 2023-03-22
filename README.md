@@ -16,7 +16,10 @@ Uma classe deve ter um objetivo unico, por exemplo: uma classe Produto tem uma r
 Alterar classes que estão relacionadas com outras, podem quebrar o codigo
 Se precisar adicionar novas funções a classe, criar uma nova classe e importar a classe anterior
 
-- L =
+- L = Principio da substituição de Liskov
+
+Uma classe devirada pode ser substituivel por sua classe base
+
 - I =
 - D =
 

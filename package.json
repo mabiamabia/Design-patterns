@@ -11,8 +11,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.15.3",
+    "@types/node": "^18.15.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.2"
-  }
+  },
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabiamabia/Design-patterns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mabiamabia/Design-patterns/issues"
+  },
+  "homepage": "https://github.com/mabiamabia/Design-patterns#readme"
 }
