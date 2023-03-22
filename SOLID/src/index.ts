@@ -1,8 +1,5 @@
-import DebitCard from '../3 - L - Liskov-substitution-principle/DebitCard'
+import Car from '../4 - I - Interface-segregation/vehicles/Car'
+import Motorcycle from '../4 - I - Interface-segregation/vehicles/Motorcycle'
 
-//const card = new CreditCard()clear
-
-const card = new DebitCard()
-
-card.validate()
-card.collectPayment()
+const car = new Car("Azul", 2020, 2.6, 4)
+const motorcyle = new Motorcycle("Roxa", 2020, 2.6)
