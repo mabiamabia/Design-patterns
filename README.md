@@ -20,7 +20,10 @@ Se precisar adicionar novas funções a classe, criar uma nova classe e importar
 
 Uma classe devirada pode ser substituivel por sua classe base
 
-- I =
+- I = Interface Segregation Principle (Principio da segregação de interface)
+
+  Classe não devem ser forçadas a depender de metodos que elas não usam
+
 - D =
 
 ## O que são principios?
