@@ -29,7 +29,7 @@ Uma classe devirada pode ser substituivel por sua classe base
   Modulos de alto nivel nao devem depender de modulos de baixo nivel, ambos devem depender de abstrações,
   abstrações não devem depender de detalhes
 
-## O que são principios?
+## O que são princípios?
 
 - Principios são verdades universais (que nunca mudam) por exemplo leis da fisicas já comprovadas
 - Boas práticas
