@@ -47,6 +47,40 @@ Uma classe devirada pode ser substituivel por sua classe base
 - Reutilizar código
 - Codigo limpo e leve
 
+# Origem - Design Patterns
+
+- Surgiu através de um livro de padrões de arquitetura e construção civil (anos 70)
+- Foi compilado em livro pela gangue dos quatro GOF (anos 90)
+- No livro possui 23 padrões de projeto
+- O Livro possui: o nome do padrão | Problema ue ele soluciona | e a Solução aplicada
+
+## Tipos de padrão
+
+- Criacional
+- Estrutural
+- Comportamental
+
+### Criacional
+
+Criação de objetos flexiveis e reutilizaveis. exemplo: new
+
+### Estrutural
+
+Define como trabalhar com objetos e classes em estruturas complexas, tornando mais eficientes
+
+### Comportamental
+
+Trabalham com comunicação eficiente entre os objetos
+
+### Caracteristicas de um padrão
+
+- Encapsulamento
+- Generalidade
+- Equilibro
+- Abstração
+- Abertura
+- Combinatorio
+
 # Links de apoio
 
 - https://refactoring.guru/design-patterns
