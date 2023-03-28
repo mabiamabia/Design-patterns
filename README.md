@@ -73,11 +73,9 @@ Criação de objetos flexiveis e reutilizaveis. exemplo: new
 - Limitação: se as subclasses retornarem valores diferentes, precisam compartilhar a mesma classe ou interface base
 - Metodo intermediário
 
-:-------------------------:|:-------------------------:
-coluna 1 | coluna 2
-linha 1 - linha2
 | linha 1 | linha2 |
-:-------------------------:|:-------------------------:
+| :-----: | :----: |
+| linha 3 | linha4 |
 
 ### Estrutural
 
