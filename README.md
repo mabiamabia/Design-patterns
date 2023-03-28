@@ -102,9 +102,7 @@ Cria variante para cada familia de produtos, por exemplo:
 |         Uber         |            99            |
 | :------------------: | :----------------------: |
 | Classe UberTransport | Classe NineNineTransport |
-|       :-----:        |          :----:          |
 |        Carro         |           Moto           |
-|       :-----:        |          :----:          |
 |        Avião         |       Helicoptero        |
 
 -
