@@ -54,15 +54,24 @@ Uma classe devirada pode ser substituivel por sua classe base
 - No livro possui 23 padrões de projeto
 - O Livro possui: o nome do padrão | Problema ue ele soluciona | e a Solução aplicada
 
-## Tipos de padrão
+# Tipos de padrão
 
 - Criacional
 - Estrutural
 - Comportamental
 
-### Criacional
+## Criacional
 
 Criação de objetos flexiveis e reutilizaveis. exemplo: new
+
+### Factory Method:
+- Deve substituir as chamadas diretas(new), de construção de objetos da classe, para um metodo intermediario que fará o papel de fábrica
+- A fábrica controla como criar os objetos que estendem a classe e serão instanciados
+- Os objetos retornados sao chamados de produtos ou classes concretas
+- Exemplo: classe Veiculo que implementa a interface Transporte e as subclasses concretas(carros, motos, bicicletas) que herdam de Veiculo e implementam os metodos declarados na interface
+- Limitação: se as subclasses retornarem valores diferentes, precisam compartilhar a mesma classe ou interface base
+
+
 
 ### Estrutural
 
