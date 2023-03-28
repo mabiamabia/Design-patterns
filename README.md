@@ -72,6 +72,7 @@ Criação de objetos flexiveis e reutilizaveis. exemplo: new
 - Exemplo: classe Veiculo que implementa a interface Transporte e as subclasses concretas(carros, motos, bicicletas) que herdam de Veiculo e implementam os metodos declarados na interface
 - Limitação: se as subclasses retornarem valores diferentes, precisam compartilhar a mesma classe ou interface base
 - Metodo intermediário
+- Uma classe que não vai ser estanciada, mas vai ser usada de padrão pra criar outras classes
 
 | linha 1 | linha2 |
 | :-----: | :----: |
@@ -93,6 +94,23 @@ Trabalham com comunicação eficiente entre os objetos
 - Abstração
 - Abertura
 - Combinatorio
+
+# Abstract Factory
+
+Cria variante para cada familia de produtos, por exemplo:
+
+|         Uber         |            99            |
+| :------------------: | :----------------------: |
+| Classe UberTransport | Classe NineNineTransport |
+|       :-----:        |          :----:          |
+|        Carro         |           Moto           |
+|       :-----:        |          :----:          |
+|        Avião         |       Helicoptero        |
+
+-
+-
+-
+-
 
 # Links de apoio
 

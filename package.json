@@ -4,7 +4,7 @@
   "description": "- Solução para problema recorrente no código - Soluções documentadas para erros recorrentes - Padrão GOF (a gangue dos 4) = Livro que documenta 23 padrões de projeto - Resolve um problema específico",
   "main": "index.ts",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only ./SOLID/src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./padroes-de-projeto/src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
