@@ -65,13 +65,17 @@ Uma classe devirada pode ser substituivel por sua classe base
 Criação de objetos flexiveis e reutilizaveis. exemplo: new
 
 ### Factory Method:
+
 - Deve substituir as chamadas diretas(new), de construção de objetos da classe, para um metodo intermediario que fará o papel de fábrica
 - A fábrica controla como criar os objetos que estendem a classe e serão instanciados
 - Os objetos retornados sao chamados de produtos ou classes concretas
 - Exemplo: classe Veiculo que implementa a interface Transporte e as subclasses concretas(carros, motos, bicicletas) que herdam de Veiculo e implementam os metodos declarados na interface
 - Limitação: se as subclasses retornarem valores diferentes, precisam compartilhar a mesma classe ou interface base
+- Metodo intermediário
 
-
+coluna 1 | coluna 2
+linha 1 - linha2
+| linha 1 | linha2 |
 
 ### Estrutural
 
